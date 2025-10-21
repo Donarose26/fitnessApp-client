@@ -99,6 +99,7 @@ export default function Login() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 className="form-control-custom"
+                style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem', borderRadius: '0.5rem', border: '1px solid #e5e7eb', height: '3rem' }}
               />
               <i className="bi bi-envelope form-icon-left"></i>
             </div>
@@ -114,6 +115,7 @@ export default function Login() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 className="form-control-custom"
+                style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem', borderRadius: '0.5rem', border: '1px solid #e5e7eb', height: '3rem' }}
             
               />
               <i className="bi bi-lock form-icon-left"></i>
