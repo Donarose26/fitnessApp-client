@@ -74,15 +74,14 @@ export default function Login() {
   return (
 
 
-    <div className="d-flex flex-column">
+    <div className="d-flex flex-column min-vh-100">
       <NavbarComponent isLoggedIn={false} toggleLogin={() => {}} />
 
       <hr className="my-4" />
 
-    <div className="container d-flex flex-column py-5" id="login">
+    <div className="container flex-grow-1 d-flex flex-column justify-content-center align-items-center py-5" id="login">
       {/* Login Card */}
-      <div className="row d-flex justify-content-center align-items-center flex-grow-1 ">
-        <div className="card card-custom">
+      <div className="row card card-custom ">
           <div className="text-center mb-4">
             <h1 className="mb-2">Welcome Back</h1>
             <p className="text-muted mb-0">Sign in to your FitnessTracker account</p>
@@ -181,7 +180,7 @@ export default function Login() {
             </div>
 
           </Form>
-        </div>
+    
       </div>
     </div>
     </div>

@@ -66,7 +66,7 @@ body {
 
 /* Card */
 .card {
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 1.5rem;
   border: 1px solid #f3f4f6;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
@@ -80,7 +80,6 @@ body {
   padding-right: 2.5rem;
   border-radius: 0.5rem;
   border: 1px solid #e5e7eb;
-  
   height: 3rem;
   transition: all 0.2s;
 }
@@ -136,24 +135,7 @@ body {
   display: block;
 }
 
-/* Buttons */
-/*.btn-primary-custom {
-  background-color: #3b82f6;
-  border-color: #3b82f6;
-  border-radius: 0.5rem;
-  height: 5rem;
-  font-weight: 600;
-  transition: background-color 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
 
-.btn-primary-custom:hover {
-  background-color: #2563eb;
-}
-*/
 /* Social buttons */
 .social-btn {
   width: 3rem;
